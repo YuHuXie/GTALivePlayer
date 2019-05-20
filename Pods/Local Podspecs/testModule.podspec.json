@@ -1,0 +1,22 @@
+{
+  "name": "testModule",
+  "version": "0.1.0",
+  "summary": "A short description of testModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuhuxie2295@sina.com/testModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuhuxie2295@sina.com": "yuhuxie2295@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/yuhuxie2295@sina.com/testModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testModule/Classes/**/*"
+}
