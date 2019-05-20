@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715A465222927B00008B113E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A465122927B00008B113E /* AppDelegate.m */; };
+		715A465522927B00008B113E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A465422927B00008B113E /* ViewController.m */; };
+		715A465822927B01008B113E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715A465622927B01008B113E /* Main.storyboard */; };
+		715A465A22927B09008B113E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715A465922927B09008B113E /* Assets.xcassets */; };
+		715A465D22927B0A008B113E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715A465B22927B0A008B113E /* LaunchScreen.storyboard */; };
+		715A466022927B0A008B113E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A465F22927B0A008B113E /* main.m */; };
+		715A466A22927B0A008B113E /* GTALIvePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A466922927B0A008B113E /* GTALIvePlayerTests.m */; };
+		715A467522927B0A008B113E /* GTALIvePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A467422927B0A008B113E /* GTALIvePlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715A466622927B0A008B113E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715A464522927B00008B113E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715A464C22927B00008B113E;
+			remoteInfo = GTALIvePlayer;
+		};
+		715A467122927B0A008B113E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715A464522927B00008B113E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715A464C22927B00008B113E;
+			remoteInfo = GTALIvePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		715A464D22927B00008B113E /* GTALIvePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTALIvePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715A465022927B00008B113E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		715A465122927B00008B113E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		715A465322927B00008B113E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		715A465422927B00008B113E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715A465722927B01008B113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715A465922927B09008B113E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715A465C22927B0A008B113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715A465E22927B0A008B113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715A465F22927B0A008B113E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715A466522927B0A008B113E /* GTALIvePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTALIvePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715A466922927B0A008B113E /* GTALIvePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTALIvePlayerTests.m; sourceTree = "<group>"; };
+		715A466B22927B0A008B113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715A467022927B0A008B113E /* GTALIvePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTALIvePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715A467422927B0A008B113E /* GTALIvePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTALIvePlayerUITests.m; sourceTree = "<group>"; };
+		715A467622927B0B008B113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715A464A22927B00008B113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715A466222927B0A008B113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715A466D22927B0A008B113E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715A464422927B00008B113E = {
+			isa = PBXGroup;
+			children = (
+				715A464F22927B00008B113E /* GTALIvePlayer */,
+				715A466822927B0A008B113E /* GTALIvePlayerTests */,
+				715A467322927B0A008B113E /* GTALIvePlayerUITests */,
+				715A464E22927B00008B113E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715A464E22927B00008B113E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715A464D22927B00008B113E /* GTALIvePlayer.app */,
+				715A466522927B0A008B113E /* GTALIvePlayerTests.xctest */,
+				715A467022927B0A008B113E /* GTALIvePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715A464F22927B00008B113E /* GTALIvePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				715A465022927B00008B113E /* AppDelegate.h */,
+				715A465122927B00008B113E /* AppDelegate.m */,
+				715A465322927B00008B113E /* ViewController.h */,
+				715A465422927B00008B113E /* ViewController.m */,
+				715A465622927B01008B113E /* Main.storyboard */,
+				715A465922927B09008B113E /* Assets.xcassets */,
+				715A465B22927B0A008B113E /* LaunchScreen.storyboard */,
+				715A465E22927B0A008B113E /* Info.plist */,
+				715A465F22927B0A008B113E /* main.m */,
+			);
+			path = GTALIvePlayer;
+			sourceTree = "<group>";
+		};
+		715A466822927B0A008B113E /* GTALIvePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				715A466922927B0A008B113E /* GTALIvePlayerTests.m */,
+				715A466B22927B0A008B113E /* Info.plist */,
+			);
+			path = GTALIvePlayerTests;
+			sourceTree = "<group>";
+		};
+		715A467322927B0A008B113E /* GTALIvePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				715A467422927B0A008B113E /* GTALIvePlayerUITests.m */,
+				715A467622927B0B008B113E /* Info.plist */,
+			);
+			path = GTALIvePlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715A464C22927B00008B113E /* GTALIvePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715A467922927B0B008B113E /* Build configuration list for PBXNativeTarget "GTALIvePlayer" */;
+			buildPhases = (
+				715A464922927B00008B113E /* Sources */,
+				715A464A22927B00008B113E /* Frameworks */,
+				715A464B22927B00008B113E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTALIvePlayer;
+			productName = GTALIvePlayer;
+			productReference = 715A464D22927B00008B113E /* GTALIvePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715A466422927B0A008B113E /* GTALIvePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715A467C22927B0B008B113E /* Build configuration list for PBXNativeTarget "GTALIvePlayerTests" */;
+			buildPhases = (
+				715A466122927B0A008B113E /* Sources */,
+				715A466222927B0A008B113E /* Frameworks */,
+				715A466322927B0A008B113E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715A466722927B0A008B113E /* PBXTargetDependency */,
+			);
+			name = GTALIvePlayerTests;
+			productName = GTALIvePlayerTests;
+			productReference = 715A466522927B0A008B113E /* GTALIvePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		715A466F22927B0A008B113E /* GTALIvePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715A467F22927B0B008B113E /* Build configuration list for PBXNativeTarget "GTALIvePlayerUITests" */;
+			buildPhases = (
+				715A466C22927B0A008B113E /* Sources */,
+				715A466D22927B0A008B113E /* Frameworks */,
+				715A466E22927B0A008B113E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715A467222927B0A008B113E /* PBXTargetDependency */,
+			);
+			name = GTALIvePlayerUITests;
+			productName = GTALIvePlayerUITests;
+			productReference = 715A467022927B0A008B113E /* GTALIvePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715A464522927B00008B113E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yuhu.xie;
+				TargetAttributes = {
+					715A464C22927B00008B113E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					715A466422927B0A008B113E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 715A464C22927B00008B113E;
+					};
+					715A466F22927B0A008B113E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 715A464C22927B00008B113E;
+					};
+				};
+			};
+			buildConfigurationList = 715A464822927B00008B113E /* Build configuration list for PBXProject "GTALIvePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715A464422927B00008B113E;
+			productRefGroup = 715A464E22927B00008B113E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715A464C22927B00008B113E /* GTALIvePlayer */,
+				715A466422927B0A008B113E /* GTALIvePlayerTests */,
+				715A466F22927B0A008B113E /* GTALIvePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715A464B22927B00008B113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A465D22927B0A008B113E /* LaunchScreen.storyboard in Resources */,
+				715A465A22927B09008B113E /* Assets.xcassets in Resources */,
+				715A465822927B01008B113E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715A466322927B0A008B113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715A466E22927B0A008B113E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715A464922927B00008B113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A465522927B00008B113E /* ViewController.m in Sources */,
+				715A466022927B0A008B113E /* main.m in Sources */,
+				715A465222927B00008B113E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715A466122927B0A008B113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A466A22927B0A008B113E /* GTALIvePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715A466C22927B0A008B113E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A467522927B0A008B113E /* GTALIvePlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715A466722927B0A008B113E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715A464C22927B00008B113E /* GTALIvePlayer */;
+			targetProxy = 715A466622927B0A008B113E /* PBXContainerItemProxy */;
+		};
+		715A467222927B0A008B113E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715A464C22927B00008B113E /* GTALIvePlayer */;
+			targetProxy = 715A467122927B0A008B113E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715A465622927B01008B113E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715A465722927B01008B113E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715A465B22927B0A008B113E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715A465C22927B0A008B113E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715A467722927B0B008B113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		715A467822927B0B008B113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715A467A22927B0B008B113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WEF965YMA;
+				INFOPLIST_FILE = GTALIvePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gta.GTALIvePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715A467B22927B0B008B113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WEF965YMA;
+				INFOPLIST_FILE = GTALIvePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gta.GTALIvePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		715A467D22927B0B008B113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTALIvePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gta.GTALIvePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTALIvePlayer.app/GTALIvePlayer";
+			};
+			name = Debug;
+		};
+		715A467E22927B0B008B113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTALIvePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gta.GTALIvePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTALIvePlayer.app/GTALIvePlayer";
+			};
+			name = Release;
+		};
+		715A468022927B0B008B113E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTALIvePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gta.GTALIvePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTALIvePlayer;
+			};
+			name = Debug;
+		};
+		715A468122927B0B008B113E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GTALIvePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gta.GTALIvePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTALIvePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715A464822927B00008B113E /* Build configuration list for PBXProject "GTALIvePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715A467722927B0B008B113E /* Debug */,
+				715A467822927B0B008B113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715A467922927B0B008B113E /* Build configuration list for PBXNativeTarget "GTALIvePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715A467A22927B0B008B113E /* Debug */,
+				715A467B22927B0B008B113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715A467C22927B0B008B113E /* Build configuration list for PBXNativeTarget "GTALIvePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715A467D22927B0B008B113E /* Debug */,
+				715A467E22927B0B008B113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715A467F22927B0B008B113E /* Build configuration list for PBXNativeTarget "GTALIvePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715A468022927B0B008B113E /* Debug */,
+				715A468122927B0B008B113E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715A464522927B00008B113E /* Project object */;
+}
